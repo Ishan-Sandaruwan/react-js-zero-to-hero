@@ -5,6 +5,7 @@ import Ex2_Func from "./components/day1-2/Ex2_Func";
 import Ex3_Class from "./components/day1-2/Ex3_Class";
 import Ex3_Func from "./components/day1-2/Ex3_Func";
 import Ex4_Class from "./components/day1-2/Ex4_Class";
+import Ex5_Class from "./components/day1-2/Ex5_Class";
 
 export default function App() {
   return (
@@ -12,8 +13,9 @@ export default function App() {
     // <Ex2_Func/>
     // <Ex3_Func />
     // <Ex1_Class name="saman 123" />
-    // <Ex2_Class />
+    <Ex2_Class />
     // <Ex3_Class />
-    <Ex4_Class />
+    // <Ex4_Class />
+    // <Ex5_Class value="12344456" />
   );
 }
