@@ -8,8 +8,12 @@ import Ex4_Class from "./components/day1-2/Ex4_Class";
 import Ex5_Class from "./components/day1-2/Ex5_Class";
 import Ex6_Class from "./components/day1-2/Ex6_Class";
 import Ex1_Props from "./components/day3/Ex1_Props";
+import Ex1_State from "./components/day3/Ex1_State";
 import Ex2_Props from "./components/day3/Ex2_Props";
+import Ex2_State from "./components/day3/Ex2_State";
 import Ex3_Props from "./components/day3/Ex3_Props";
+import Ex3_State from "./components/day3/Ex3_State";
+import Ex4_State from "./components/day3/Ex4_State";
 
 export default function App() {
   return (
@@ -24,11 +28,15 @@ export default function App() {
     // <Ex6_Class/>
     // <Ex1_Props name="saman" age={12} />
     // <Ex2_Props/>
-    <Ex3_Props
-      label="click me"
-      onClick={() => {
-        console.log("clicked");
-      }}
-    />
+    // <Ex3_Props
+    //   label="click me"
+    //   onClick={() => {
+    //     console.log("clicked");
+    //   }}
+    // />
+    <Ex1_State />
+    // <Ex2_State />
+    // <Ex3_State />
+    // <Ex4_State />
   );
 }
