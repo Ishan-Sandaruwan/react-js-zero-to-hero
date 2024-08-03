@@ -35,8 +35,8 @@ export default function App() {
     //   }}
     // />
     // <Ex1_State />
-    <Ex2_State />
-    // <Ex3_State />
+    // <Ex2_State />
+    <Ex3_State />
     // <Ex4_State />
   );
 }
