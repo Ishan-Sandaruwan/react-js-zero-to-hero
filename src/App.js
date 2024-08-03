@@ -7,6 +7,8 @@ import Ex3_Func from "./components/day1-2/Ex3_Func";
 import Ex4_Class from "./components/day1-2/Ex4_Class";
 import Ex5_Class from "./components/day1-2/Ex5_Class";
 import Ex6_Class from "./components/day1-2/Ex6_Class";
+import Ex1_Props from "./components/day3/Ex1_Props";
+import Ex2_Props from "./components/day3/Ex2_Props";
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
     // <Ex3_Class />
     // <Ex4_Class />
     // <Ex5_Class value="12344456" />
-    <Ex6_Class/>
+    // <Ex6_Class/>
+    // <Ex1_Props name="saman" age={12} />
+    <Ex2_Props/>
   );
 }
