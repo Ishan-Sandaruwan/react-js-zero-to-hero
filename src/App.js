@@ -34,8 +34,8 @@ export default function App() {
     //     console.log("clicked");
     //   }}
     // />
-    <Ex1_State />
-    // <Ex2_State />
+    // <Ex1_State />
+    <Ex2_State />
     // <Ex3_State />
     // <Ex4_State />
   );

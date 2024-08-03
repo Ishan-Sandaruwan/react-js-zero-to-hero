@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+// Exercise 1: Create a class component Clock that displays the current time and updates every second.
+
 export default class Ex1_State extends Component {
     constructor(props){
         super(props);
