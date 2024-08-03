@@ -9,6 +9,7 @@ import Ex5_Class from "./components/day1-2/Ex5_Class";
 import Ex6_Class from "./components/day1-2/Ex6_Class";
 import Ex1_Props from "./components/day3/Ex1_Props";
 import Ex2_Props from "./components/day3/Ex2_Props";
+import Ex3_Props from "./components/day3/Ex3_Props";
 
 export default function App() {
   return (
@@ -22,6 +23,12 @@ export default function App() {
     // <Ex5_Class value="12344456" />
     // <Ex6_Class/>
     // <Ex1_Props name="saman" age={12} />
-    <Ex2_Props/>
+    // <Ex2_Props/>
+    <Ex3_Props
+      label="click me"
+      onClick={() => {
+        console.log("clicked");
+      }}
+    />
   );
 }
