@@ -14,6 +14,7 @@ import Ex2_State from "./components/day3/Ex2_State";
 import Ex3_Props from "./components/day3/Ex3_Props";
 import Ex3_State from "./components/day3/Ex3_State";
 import Ex4_State from "./components/day3/Ex4_State";
+import Ex3_UseContext from "./components/day5/Ex3_UseContext";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
     // <Ex1_State />
     // <Ex2_State />
     // <Ex3_State />
-    <Ex4_State />
+    // <Ex4_State />
+    <Ex3_UseContext/>
   );
 }
