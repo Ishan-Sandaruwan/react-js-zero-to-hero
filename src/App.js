@@ -16,6 +16,7 @@ import Ex3_State from "./components/day3/Ex3_State";
 import Ex4_State from "./components/day3/Ex4_State";
 import Ex1_UseReduser from "./components/day5/Ex1_UseReduser";
 import Ex2_UseRef from "./components/day5/Ex2_UseRef";
+import Ex3_CustomHook from "./components/day5/Ex3_CustomHook";
 import Ex3_UseContext from "./components/day5/Ex3_UseContext";
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
     // <Ex4_State />
     // <Ex3_UseContext/>
     // <Ex1_UseReduser/>
-    <Ex2_UseRef />
+    // <Ex2_UseRef />
+    <Ex3_CustomHook/>
   );
 }
