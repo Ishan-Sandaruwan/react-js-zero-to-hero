@@ -19,6 +19,7 @@ import Ex2_UseRef from "./components/day5/Ex2_UseRef";
 import Ex3_CustomHook from "./components/day5/Ex3_CustomHook";
 import Ex3_UseContext from "./components/day5/Ex3_UseContext";
 import Ex1_Theme from "./components/day6/Ex1_Theme";
+import Ex3_Route from "./components/day6/Ex3_Route";
 
 export default function App() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
     // <Ex1_UseReduser/>
     // <Ex2_UseRef />
     // <Ex3_CustomHook/>
-    <Ex1_Theme />
+    // <Ex1_Theme />
+    <Ex3_Route/>
   );
 }
